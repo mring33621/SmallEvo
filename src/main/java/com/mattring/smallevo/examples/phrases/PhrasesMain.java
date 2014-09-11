@@ -1,15 +1,19 @@
-package com.mattring.smallevo.example;
+package com.mattring.smallevo.examples.phrases;
 
 import com.mattring.smallevo.Candidate;
 import com.mattring.smallevo.EvoContext;
-import com.mattring.smallevo.functions.evo.PrepareNextGenerationFn;
+import com.mattring.smallevo.examples.BestScore;
+import com.mattring.smallevo.functions.PrepareNextGenerationFn;
 import java.util.List;
 
 /**
+ * Attempts to evolve a genome to match the incoming phrase (at cmd line
+ * args[0]) The incoming phrase should be quoted, if longer than one word.
+ * Intended as a simple example of using SmallEvo.
  *
  * @author mring
  */
-public class WordsMain {
+public class PhrasesMain {
 
     public static void main(String[] args) {
 

@@ -1,10 +1,10 @@
-package com.mattring.smallevo.example;
+package com.mattring.smallevo.examples;
 
 import com.mattring.smallevo.Candidate;
 import java.util.Comparator;
 
 /**
- *
+ * Helps keep track of the best candidate (by score ranking).
  * @author mring
  */
 public class BestScore<T extends Candidate> {

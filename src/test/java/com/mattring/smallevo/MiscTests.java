@@ -6,11 +6,11 @@
 
 package com.mattring.smallevo;
 
-import com.mattring.smallevo.functions.evo.CrossoverFn;
-import com.mattring.smallevo.functions.evo.MutationFn;
-import com.mattring.smallevo.functions.evo.PrepareNextGenerationFn;
-import com.mattring.smallevo.functions.evo.RandomCandidateSupplier;
-import com.mattring.smallevo.functions.evo.RandomPopulationFn;
+import com.mattring.smallevo.functions.CrossoverFn;
+import com.mattring.smallevo.functions.MutationFn;
+import com.mattring.smallevo.functions.PrepareNextGenerationFn;
+import com.mattring.smallevo.functions.RandomCandidateSupplier;
+import com.mattring.smallevo.functions.RandomPopulationFn;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

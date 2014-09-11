@@ -1,5 +1,5 @@
 
-package com.mattring.smallevo.example;
+package com.mattring.smallevo.examples.phrases;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author mring
  */
-public class WordsTests {
+public class PhrasesTests {
     
     @Test
     public void testPickPrintableChar() {

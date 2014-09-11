@@ -1,8 +1,8 @@
 
-package com.mattring.smallevo.example;
+package com.mattring.smallevo.examples;
 
 /**
- *
+ * Wraps a double, for use in lambdas, anonymous classes.
  * @author mring
  */
 public class DoubleHolder {
