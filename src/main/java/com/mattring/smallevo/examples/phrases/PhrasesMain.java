@@ -18,7 +18,9 @@ public class PhrasesMain {
     public static void main(String[] args) {
 
         final char[] targetWord = args[0].toCharArray();
-        final EvoContext<Candidate> ctx = new EvoContext<>(100, targetWord.length, true);
+        final int generationSize = 100;
+        final boolean higherScoreIsBetter = true;
+        final EvoContext<Candidate> ctx = new EvoContext<>(generationSize, targetWord.length, higherScoreIsBetter);
         final BestScore<Candidate> bestScoreHolder = new BestScore<>(ctx.getScoreComparator(), new Candidate());
         final PrepareNextGenerationFn<Candidate> nextGenFn = new PrepareNextGenerationFn<>(ctx, Candidate.BLANK_SUPPLIER);
         List<Candidate> pop = nextGenFn.apply(null);
@@ -49,6 +51,7 @@ public class PhrasesMain {
             }
             pop = nextGenFn.apply(pop);
             if (bestCandThisGen.getScore() > 0d) {
+                // if prev best candidate is any good at all, add it to the next gen
                 pop.add(bestCandThisGen);
             }
             genCnt++;
