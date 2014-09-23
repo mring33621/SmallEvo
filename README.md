@@ -23,7 +23,7 @@ VERSION 1.2 RELEASE 20140922
   1. begins at the salesperson's home base (defined as destination[0])
   2. visits every other destination once
   3. returns to home base
-* Provides an javafx-based visual playback of the evolution.
+* Provides a javafx-based visual playback of the evolution.
 * `java com.mattring.smallevo.examples.travelingsalesman.TravelingSalesmanMain`
 
 ---
