@@ -25,6 +25,8 @@ VERSION 1.2 RELEASE 20140922
   3. returns to home base
 * Provides a javafx-based visual playback of the evolution.
 * `java com.mattring.smallevo.examples.travelingsalesman.TravelingSalesmanMain`
+  
+![traveling salesman animation](http://sawyervacayhouse.weebly.com/uploads/2/7/0/2/2702135/5502545_orig.gif)
 
 ---
 
