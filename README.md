@@ -1,4 +1,4 @@
-SmallEvo
+SmallEvo ![build status](https://travis-ci.org/mring33621/SmallEvo.svg?branch=master)
 ========
 A small genetic algorithm framework written using new Java 8 features  
 VERSION 1.2 RELEASE 20140922 
